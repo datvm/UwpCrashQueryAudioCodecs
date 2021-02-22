@@ -36,7 +36,7 @@ namespace App1
             try
             {
                 var query = new CodecQuery();
-                var codecs = await query.FindAllAsync(CodecKind.Video, CodecCategory.Encoder, "");
+                var codecs = await query.FindAllAsync(CodecKind.Audio, CodecCategory.Encoder, "");
             }
             catch (Exception ex)
             {
